@@ -34,3 +34,6 @@ This mod is intended for **Vanilla Tournament Play.** I change the appearance of
     - add port normal lines
     - diminish command halo size
 
+You might like it, you might not, but I think its nice. Get it if you want to try a slightly different look.
+
+Simple Shaders are the official shaders of the **Debris Regional Reassembly Tournament** (**DRRT**) series.
