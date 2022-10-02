@@ -36,8 +36,6 @@
 			float intensity0 = 0.025 * l0;
 			float intensity1 = 0.025 * l1;
 			
-			
-			
 			float destRed = mix(SourceColor0.r + (intensity0 * sin(Time * 5 + TimeA)), SourceColor1.r + (intensity1 * sin(Time * 4 + TimeA)), val);
 			float destGreen = mix(SourceColor0.g + (intensity0 * sin(Time * 6 + TimeA)), SourceColor1.g + (intensity1 * sin(Time * 3 + TimeA)), val);
 			float destBlue = mix(SourceColor0.b + (intensity0 * sin(Time* 5.5 + TimeA)), SourceColor1.b + (intensity1 * sin(Time * 3.5 + TimeA)), val);
@@ -46,9 +44,6 @@
 			//vec4 extraColor = vec4(0.1 * snoise(vec3(sin(0.1 * Time), 0, 2*Time)), 0.1 * snoise(vec3(cos(0.2 * Time), 0, 1.9*Time)), 0.1 * snoise(vec3(sin(0.15 * Time), 0, 2.5*Time)), 1);
 			
 		  DestinationColor = mix(vec4(vec3(-0.05), 0) + vec4(destRed, destGreen, destBlue, destAlph), vec4(vec3(0.04), 0) + vec4(destRed, destGreen, destBlue, destAlph), valTwo);
-			
-			
-
 			
 		  //DestinationColor = mix(vec4(0.1) + mix(SourceColor0, SourceColor1, val), vec4(-0.1) + mix(SourceColor0, SourceColor1, val), valTwo) + 46 * snoise(vec3(0, 0.1 * TimeA, 2*Time)); // changed by me
 			
@@ -468,7 +463,7 @@
        #endif
            gl_Position = Transform * vec4(position, 1);
        }"
-      , // -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+      , -- // -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
       "
        float length2(vec2 x) { return dot(x, x); }
 	   #include 'noise3D.glsl'
@@ -546,7 +541,7 @@
        #endif
            gl_Position = Transform * vec4(position, 1);
        }"
-      , // -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+      , -- // -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
       "
        float length2(vec2 x) { return dot(x, x); }
 	   #include 'noise3D.glsl'
