@@ -1,0 +1,74 @@
+
+
+### Sound
+ kSound3DVolumeCull = 0.01 # 0.1
+ kSoundSources = 150 # 62
+ kSoundClusterRadius = 2000 # 500
+ kSoundClusterVolume = 0.75 # 1.01
+ kSoundZoomParams = {0.6, 15, 1} # {0.6,3,1}
+ kSoundVolumeCull = 0.01 # 0.1
+ kSpeedOfSound = 150000
+
+kCommandHaloDeadliness = 0
+kCommandHaloSize = {-5000,-5000} # {5,0}
+
+kParticleCountMax = 2097152 # 2097152
+# kParticleExplosionAlpha = 0.2
+kParticleExplosionColor0 = 0xff9900 # 0xff5500
+kParticleExplosionColor1 = 0xee2200 # 0xee2200
+# kParticleExplosionTime = {0.3,0.7}
+# kParticleFireAlpha = 0
+# kParticleFireColor0 = 0xf79605 # 0xff6500
+# kParticleFireColor1 = 0xd17600 # 0xee1200
+# kParticleFireRate = 45
+ kParticleFireSize = 4.5
+kParticleFireTime = 0.4
+kParticleSmokeAlpha = 0.5
+# kParticleSmokeColor = 0x80202020
+# kParticleSmokeFireArcRange = {50,1000}
+# kParticleSmokeFireTime = {0.7,1.2}
+# kParticleSmokeFireVelocity_MeanStdev = {400,200}
+# kParticleSmokeRate = 30
+# kParticleSmokeSize = 3
+# kParticleSmokeTime = 3
+# kParticleTris = 0
+
+### kBloomBlocks: bool: Enable bloom for blocks
+kBloomBlocks = 1
+kBloomBlurRadius = 3
+kBloomBrightness = 1.55
+### kBloomIntensity: float: Bloom blurry fraction
+kBloomIntensity = 0.25
+### kBloomRadius: int: Radius of bloom blur
+kBloomRadius = 24
+### kBloomResFactor: float: Effects render target size as fraction of screen pixels (low blurLevel only)
+kBloomResFactor = 0.75
+### kBloomScale: float: Bloom render target size as fraction of screen pixels
+kBloomScale = 1.4
+kBloomTonemap = 1
+kBlurFactor = 1.4
+kBlurMenuRadius = 20
+kBlurMinDepth = 150
+
+### Stars
+### kStarLayers: vector<float3>: defines tiled starfield layers {size, max_depth, min_depth}
+ kStarLayers = {{250000, 70000, 7000},{250000, 70000, 7000}} # v2
+ # kStarLayers = {{40000,5000,2000},{50000,9000,5000},{200000,100000,9000}} # v1
+ kStarSizeRange = {150,200} # {10,40} # {30,30}
+
+ kStarInvDensity = 50000 # 2000000 # probably clamped to 50000 ??? # keep commented out when tournament
+
+ kStarColor = 0x90ffffff # 0xffffffff
+ kStarColorVariation = .7 # 0.3
+ kStarNoiseScale = 0.005 # 0.001
+ 
+# kWorleyColorRadius = 8000
+# kWorleyMaxIterations = 2
+# kWorleyShaderCount = 3
+# kWorleyShaderMaxPoints = 20
+
+### Ports
+kPortRenderAlpha = 0.25
+kPortRenderNormals = 1
+kPortRenderSize = {1,0.7}
+kPortRenderVerts = 5
