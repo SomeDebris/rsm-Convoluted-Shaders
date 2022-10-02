@@ -1,5 +1,6 @@
 # Simple Shaders [by Debris]
 A relatively simple shader mod that maintains the basic look and feel of the game, but spices up explosions, makes thruster trails look nicer, and makes colors oscillate faster and less predictably.
+![preview.png](/preview.png)
 
 This mod is intended for **Vanilla Tournament Play.** I change the appearance of some things to make them easier to see in the arena etc. This may harm the apperance of your modded factions.
 
