@@ -52,11 +52,11 @@ kBlurMinDepth = 150
 
 ### Stars
 ### kStarLayers: vector<float3>: defines tiled starfield layers {size, max_depth, min_depth}
- kStarLayers = {{250000, 70000, 7000},{250000, 70000, 7000}} # v2
+# kStarLayers = {{250000, 70000, 7000},{250000, 70000, 7000}} # v2
  # kStarLayers = {{40000,5000,2000},{50000,9000,5000},{200000,100000,9000}} # v1
- kStarSizeRange = {150,200} # {10,40} # {30,30}
+# kStarSizeRange = {150,200} # {10,40} # {30,30}
 
- kStarInvDensity = 50000 # 2000000 # probably clamped to 50000 ??? # keep commented out when tournament
+# kStarInvDensity = 50000 # 2000000 # probably clamped to 50000 ??? # keep commented out when tournament
 
  kStarColor = 0x90ffffff # 0xffffffff
  kStarColorVariation = .7 # 0.3
