@@ -128,7 +128,7 @@
            if (alpha <= 0.0)
                discard;
 		//allegedly causes the twinkle
-           gl_FragColor = DestinationColor * vec4(vec3(2), alpha * 1.3);
+           gl_FragColor = vec4(DestinationColor * vec3(2), 0.0);
        }"
    },
 
