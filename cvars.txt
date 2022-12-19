@@ -1,13 +1,13 @@
 
 
 ### Sound
- kSound3DVolumeCull = 0.01 # 0.1
- kSoundSources = 150 # 62
- kSoundClusterRadius = 2000 # 500
- kSoundClusterVolume = 0.75 # 1.01
- kSoundZoomParams = {0.6, 15, 1} # {0.6,3,1}
- kSoundVolumeCull = 0.01 # 0.1
- kSpeedOfSound = 150000
+# kSound3DVolumeCull = 0.01 # 0.1
+# kSoundSources = 150 # 62
+# kSoundClusterRadius = 2000 # 500
+# kSoundClusterVolume = 0.75 # 1.01
+# kSoundZoomParams = {0.6, 15, 1} # {0.6,3,1}
+# kSoundVolumeCull = 0.01 # 0.1
+# kSpeedOfSound = 150000
 
 kCommandHaloDeadliness = 0
 kCommandHaloSize = {-10,0.1} # {5,0}
