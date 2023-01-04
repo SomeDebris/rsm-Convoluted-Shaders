@@ -319,11 +319,11 @@
                                 magnus_ramped(color.b)
                                 );
 
-              //float mx = max(color.r, max(color.g, color.b));
-              //if (mx > 1.0) {
-                  //color.rgb += 1.0 * vec3(mx - 1.0);
-                  //color.rgb += 0.9 * vec3(log(mx));
-              //}
+              float mx = max(color.r, max(color.g, color.b));
+              if (mx > 1.0) {
+                  color.rgb += 1.0 * vec3(mx - 1.0);
+                  color.rgb += 0.9 * vec3(log(mx));
+              }
 
       #if DITHER
               float ditherv = texture2D(dithertex, gl_FragCoord.xy / 8.0).r / 128.0 - (1.0 / 128.0);
