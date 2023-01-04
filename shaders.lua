@@ -307,7 +307,7 @@
       "uniform sampler2D texture1;
       uniform sampler2D dithertex;
       float magnus_ramped(float m_color) {
-          return 0.4 * (log(m_color + 0.3679) + 1);
+          return 0.636 * (log(m_color + 0.3679) + 1);
       }
       void main(void) {
           vec2 texCoord = DestTexCoord;
