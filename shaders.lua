@@ -311,9 +311,9 @@
           vec4 color = texture2D(texture1, texCoord);
           if (color.rgb != vec3(0.0))
           {
-              color.rgb = vec3(log(color.r + 0.316) + 0.5, 
-                                log(color.g + 0.316) + 0.5, 
-                                log(color.b + 0.316) + 0.5);
+              color.rgb = vec3(log(color.r + 1), 
+                                log(color.g + 1), 
+                                log(color.b + 1));
 
               //float mx = max(color.r, max(color.g, color.b));
               //if (mx > 1.0) {
