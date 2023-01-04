@@ -312,9 +312,10 @@
           if (color.rgb != vec3(0.0))
           {
               float mx = max(color.r, max(color.g, color.b));
-              if (mx > 1.0) {
+              if (mx > 0.262) {
                   //color.rgb += 1.0 * vec3(mx - 1.0);
-                  color.rgb += 0.9 * vec3(log(mx));
+                  //color.rgb += 0.9 * vec3(log(mx));
+                  color.rgb = vec3(log(color.r), log(color.g), log(color.b));
               }
       #if DITHER
               float ditherv = texture2D(dithertex, gl_FragCoord.xy / 8.0).r / 128.0 - (1.0 / 128.0);
