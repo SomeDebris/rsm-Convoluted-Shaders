@@ -306,7 +306,7 @@
       ,
       "uniform sampler2D texture1;
       uniform sampler2D dithertex;
-      float magnus_ramped(float m_color) {
+      float debris_ramped(float m_color) {
           return 0.58 * (log(m_color + 0.3679) + 1);
       }
       void main(void) {
@@ -314,9 +314,9 @@
           vec4 color = texture2D(texture1, texCoord);
           if (color.rgb != vec3(0.0))
           {
-              color.rgb = vec3(magnus_ramped(color.r), 
-                                magnus_ramped(color.g), 
-                                magnus_ramped(color.b)
+              color.rgb = vec3(debris_ramped(color.r), 
+                                debris_ramped(color.g), 
+                                debris_ramped(color.b)
                                 );
 
               float mx = max(color.r, max(color.g, color.b));
