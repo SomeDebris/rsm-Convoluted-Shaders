@@ -30,15 +30,15 @@ kParticleSmokeAlpha = 1.0
 kParticleSmokeFireVelocity_MeanStdev = {600,200}
 # kParticleSmokeRate = 30
 # kParticleSmokeSize = 3
-kParticleSmokeTime = 6
+kParticleSmokeTime = 14
 # kParticleTris = 0
 
 ### kBloomBlocks: bool: Enable bloom for blocks
 kBloomBlocks = 1
-kBloomBlurRadius = 3
+kBloomBlurRadius = 2
 kBloomBrightness = 1.55
 ### kBloomIntensity: float: Bloom blurry fraction
-kBloomIntensity = 0.25
+kBloomIntensity = 0.1
 ### kBloomRadius: int: Radius of bloom blur
 kBloomRadius = 24
 ### kBloomResFactor: float: Effects render target size as fraction of screen pixels (low blurLevel only)
