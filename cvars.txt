@@ -9,7 +9,7 @@
 # kSoundVolumeCull = 0.01 # 0.1
 # kSpeedOfSound = 150000
 
-kCommandHaloDeadliness = 0
+kCommandHaloDeadliness = 200000
 kCommandHaloSize = {-10,0.1} # {5,0}
 
 kParticleCountMax = 2097152 # 2097152
