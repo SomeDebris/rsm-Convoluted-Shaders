@@ -38,7 +38,7 @@ kBloomBlocks = 1
 kBloomBlurRadius = 2
 kBloomBrightness = 1.55
 ### kBloomIntensity: float: Bloom blurry fraction
-kBloomIntensity = 0.1
+kBloomIntensity = 0.15
 ### kBloomRadius: int: Radius of bloom blur
 kBloomRadius = 24
 ### kBloomResFactor: float: Effects render target size as fraction of screen pixels (low blurLevel only)
