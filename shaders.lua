@@ -320,7 +320,7 @@
                                 );
 
               float mx = max(color.r, max(color.g, color.b));
-              if (mx > 1.0) {
+              if (mx > 1.695) {
                   color.rgb += 1.0 * vec3(mx - 1.0);
                   color.rgb += 0.9 * vec3(log(mx));
               }
